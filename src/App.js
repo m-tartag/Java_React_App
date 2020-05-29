@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       <h1>Header</h1>
+       <Header></Header>
        <FirstComponent></FirstComponent>
        <SecondComponent></SecondComponent>
        <AnotherComponent></AnotherComponent>
@@ -49,4 +49,17 @@ class AnotherComponent extends Component {
     )
   }
 }
+
+class Header extends Component {
+  render() {
+    return (
+      <div className="header">
+        <h1>This is the header</h1>
+      </div>
+    )
+  }
+}
 export default App;
+
+
+
