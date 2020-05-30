@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
+import HeaderComponent from './components/HeaderComponent'
  
 class App extends Component {
   render() {
     return (
       <div className="App">
-       <Header></Header>
+       <HeaderComponent></HeaderComponent>
        <FirstComponent></FirstComponent>
        <SecondComponent></SecondComponent>
        <AnotherComponent></AnotherComponent>
@@ -50,15 +51,6 @@ class AnotherComponent extends Component {
   }
 }
 
-class Header extends Component {
-  render() {
-    return (
-      <div className="header">
-        <h1>This is the header</h1>
-      </div>
-    )
-  }
-}
 export default App;
 
 
