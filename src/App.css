@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+/* 
+Experimental */
+
+.buttonComponent {
+  color: green;
+  font-weight: bold;
+}
+
+.loginComponent {
+  color: blue;
+}
+
+.headerComponent {
+  color: orange;
+}
