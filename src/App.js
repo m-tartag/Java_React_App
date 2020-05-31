@@ -4,6 +4,7 @@ import HeaderComponent from './components/HeaderComponent'
 import LoginComponent from './components/LoginComponent'
 import ButtonComponent from './components/ButtonComponent'
 import LandingComponent from './components/LandingComponent'
+import FunctionComponent from './components/examples/FunctionComponent'
  
 class App extends Component {
   render() {
@@ -13,10 +14,8 @@ class App extends Component {
        <LoginComponent></LoginComponent>
        <ButtonComponent></ButtonComponent>
        <LandingComponent></LandingComponent>
-       <NextComponent></NextComponent>
        <FirstComponent></FirstComponent>
-       <SecondComponent></SecondComponent>
-       <AnotherComponent></AnotherComponent>
+       <FunctionComponent></FunctionComponent>
       </div>
     );
   }
@@ -28,47 +27,13 @@ class FirstComponent extends Component {
       <div className="firstComponent">
         First Component
       </div>
-
-
-    )
-    
-  }
-}
-
-class SecondComponent extends Component {
-  render() {
-    return (
-      <div className="secondComponent">
-        <FirstComponent></FirstComponent>
-        <FirstComponent></FirstComponent>
-        <FirstComponent></FirstComponent>
-        <FirstComponent></FirstComponent>
-      </div>
-    )
-  }
-}
-
-class AnotherComponent extends Component {
-  render() {
-    return (
-      <div className="anotherComponent">
-        This is another component!
-      </div>
     )
   }
 }
 
 export default App;
 
-class NextComponent extends LandingComponent {
-  render() {
-    return (
-      <div className="nextComponent">
-        Hey
-      </div>
-    )
-  }
-}
+
 
 
 
