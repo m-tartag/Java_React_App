@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 
-class LandingComponent extends Component {
+export default class LandingComponent extends Component {
     render() {
         return (
             <div className="landingComponent">
-                This is the landing component.
+                <h1>Welcome: Landing Page</h1>
             </div>
         )
     }
 }
 
-export default LandingComponent;

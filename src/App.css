@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  /* background-color: black;
+  height: 1000px;
+  padding-top:30px; */
 }
 
 .App-logo {
@@ -52,3 +55,4 @@ Experimental */
 .headerComponent {
   color: orange;
 }
+
