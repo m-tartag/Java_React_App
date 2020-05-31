@@ -13,6 +13,7 @@ class App extends Component {
        <LoginComponent></LoginComponent>
        <ButtonComponent></ButtonComponent>
        <LandingComponent></LandingComponent>
+       <NextComponent></NextComponent>
        <FirstComponent></FirstComponent>
        <SecondComponent></SecondComponent>
        <AnotherComponent></AnotherComponent>
@@ -58,6 +59,16 @@ class AnotherComponent extends Component {
 }
 
 export default App;
+
+class NextComponent extends LandingComponent {
+  render() {
+    return (
+      <div className="nextComponent">
+        Hey
+      </div>
+    )
+  }
+}
 
 
 

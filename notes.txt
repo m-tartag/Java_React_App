@@ -1,0 +1,3 @@
+Web Service = Software system designed to support interoperable machine-to-machine interaction over a network.
+
+Request and Response formats= XML, JSON (Javascript Object Notation)
