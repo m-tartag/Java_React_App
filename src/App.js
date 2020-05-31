@@ -3,6 +3,7 @@ import './App.css';
 import HeaderComponent from './components/HeaderComponent'
 import LoginComponent from './components/LoginComponent'
 import ButtonComponent from './components/ButtonComponent'
+import LandingComponent from './components/LandingComponent'
  
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
        <HeaderComponent></HeaderComponent>
        <LoginComponent></LoginComponent>
        <ButtonComponent></ButtonComponent>
+       <LandingComponent></LandingComponent>
        <FirstComponent></FirstComponent>
        <SecondComponent></SecondComponent>
        <AnotherComponent></AnotherComponent>
