@@ -6,9 +6,9 @@ import {Link} from 'react-router-dom';
 export default function NavbarComponent() {
     return (
         <Navbar bg="dark" variant="dark">
-            <Link to={""} className="navbar-brand">
-                <img src="https://i.imgur.com/znQvBMi.png" width="25" height="25" alt="brand"/> Rust Servers: Just Wiped
-            </Link>
+            {/* <Link to={""} className="navbar-brand">
+                <img src="" width="25" height="25" alt="brand"/> App
+            </Link> */}
             <Nav className="mr-auto">
                 <Link to={"list"} className="nav-link">List</Link>
                 <Link to={""} className="nav-link">Add</Link>

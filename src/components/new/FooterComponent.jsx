@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Navbar, Container, Col} from 'react-bootstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faPizzaSlice} from '@fortawesome/free-solid-svg-icons';
+// import {faPizzaSlice} from '@fortawesome/free-solid-svg-icons';
 
 export default class FooterComponent extends Component {
     render() {
@@ -13,7 +13,7 @@ export default class FooterComponent extends Component {
                 <Container>
                     <Col lg={12} className="text-center text-muted">
                         <div className="text-white">
-                            {fullYear}-{fullYear + 1}, All Rights Reserved by Bofadeez Designs <FontAwesomeIcon icon={faPizzaSlice}/>
+                            {fullYear}-{fullYear + 1}, All Rights Reserved by Default Designs
                         </div>
                     </Col>
                 </Container>

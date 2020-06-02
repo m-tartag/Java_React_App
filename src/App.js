@@ -12,7 +12,7 @@ import ListComponent from './components/new/ListComponent'
  
 export default function App() {
 
-    const heading = "Welcome to JUST-WIPED 2.0"
+    const heading = "Welcome to the App"
   
     return (
       <div className="App">
