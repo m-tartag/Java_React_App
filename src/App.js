@@ -12,7 +12,7 @@ import ListComponent from './components/new/ListComponent'
  
 export default function App() {
 
-    const heading = "Welcome to the App"
+    const heading = "Personal Finance Manager"
   
     return (
       <div className="App">

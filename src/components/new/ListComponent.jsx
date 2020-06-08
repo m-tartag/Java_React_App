@@ -18,11 +18,10 @@ export default class ListComponent extends Component {
                 <Card className={"border border-dark bg-dark text-white"}>
                     <Card.Header>
                         <div style={{"float":"left"}}>
-                            <FontAwesomeIcon icon={faList}/> Server List
+                        Income
                         </div>
                         <div style={{"float":"right"}}></div>
-                        {/* <div>{RustServerService.executeRustServerService()}</div> */}
-
+                        Expenses
                     </Card.Header>
 
                 </Card>

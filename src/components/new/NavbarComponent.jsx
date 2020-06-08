@@ -10,9 +10,9 @@ export default function NavbarComponent() {
                 <img src="" width="25" height="25" alt="brand"/> App
             </Link> */}
             <Nav className="mr-auto">
-                <Link to={"list"} className="nav-link">List</Link>
-                <Link to={""} className="nav-link">Add</Link>
-                <Link to={""} className="nav-link">User List</Link>
+                <Link to={""} className="nav-link">Home</Link>
+                <Link to={"list"} className="nav-link">My Dashboard</Link>
+                <Link to={""} className="nav-link">Logout</Link>
             </Nav>
         </Navbar>
     )
