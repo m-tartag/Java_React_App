@@ -13,7 +13,7 @@ export default class FooterComponent extends Component {
                 <Container>
                     <Col lg={12} className="text-center text-muted">
                         <div className="text-white">
-                            {fullYear}-{fullYear + 1}, All Rights Reserved by Default
+                            {fullYear}-{fullYear + 1}, All Rights Reserved
                         </div>
                     </Col>
                 </Container>

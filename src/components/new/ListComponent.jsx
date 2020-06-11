@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import { Card } from 'react-bootstrap';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faList} from '@fortawesome/free-solid-svg-icons';
 import axios from 'axios';
-import RustServerService from '../../api/RustServerService'
+
 
 
 
@@ -21,11 +19,11 @@ export default class ListComponent extends Component {
                         Income
                         </div>
                         <div style={{"float":"right"}}></div>
-                        Expenses
+                        Expense
                     </Card.Header>
 
                 </Card>
-            </div>
+            </div> 
         )
     }
 }
