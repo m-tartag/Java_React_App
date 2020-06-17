@@ -9,7 +9,7 @@ class HeaderComponent extends Component {
                     <div className="navbar-brand">MyApp</div>
                     <ul className="navbar-nav">
                         <li><Link className="nav-link" to="/">Home</Link></li>
-                        <li><Link className="nav-link" to="/">Content</Link></li>
+                        <li><Link className="nav-link" to="/">Finances</Link></li>
                     </ul>
                     <ul className="navbar-nav navbar-collapse justify-content-end">
                         <li><Link className="nav-link" to="/">Login</Link></li>
