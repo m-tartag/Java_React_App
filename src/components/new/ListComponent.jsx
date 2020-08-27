@@ -19,7 +19,7 @@ export default class ListComponent extends Component {
                         Income
                         </div>
                         <div style={{"float":"right"}}></div>
-                        Expense
+                        Expenses
                     </Card.Header>
 
                 </Card>
